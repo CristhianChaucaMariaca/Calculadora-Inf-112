@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Calc112</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Cristhian</string>
+	<string name="Punto">.</string>
+	<string name="Cero">0</string>
+	<string name="Uno">1</string>
+	<string name="Dos">2</string>
+	<string name="Tres">3</string>
+	<string name="Cuatro">4</string>
+	<string name="Cinco">5</string>
+	<string name="Seis">6</string>
+	<string name="Siete">7</string>
+	<string name="Ocho">8</string>
+	<string name="Nueve">9</string>
+	<string name="A">A</string>
+	<string name="B">B</string>
+	<string name="C">C</string>
+	<string name="D">D</string>
+	<string name="E">E</string>
+	<string name="F">F</string>
+	<string name="Dividir">/</string>
+	<string name="Multiplicar">X</string>
+	<string name="Mas">+</string>
+	<string name="Menos">-</string>
+	<string name="Borrar">B</string>
+	<string name="BorrarTodo">C</string>
+	<string name="Sintexto"></string>
+</resources>

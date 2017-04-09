@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <string name="A">A</string>
+    <string name="B">B</string>
+    <string name="Borrar">B</string>
+    <string name="BorrarTodo">C</string>
+    <string name="C">C</string>
+    <string name="Cero">0</string>
+    <string name="Cinco">5</string>
+    <string name="Cuatro">4</string>
+    <string name="D">D</string>
+    <string name="Dividir">/</string>
+    <string name="Dos">2</string>
+    <string name="E">E</string>
+    <string name="F">F</string>
+    <string name="Mas">+</string>
+    <string name="Menos">-</string>
+    <string name="Multiplicar">X</string>
+    <string name="Nueve">9</string>
+    <string name="Ocho">8</string>
+    <string name="Punto">.</string>
+    <string name="Seis">6</string>
+    <string name="Siete">7</string>
+    <string name="Sintexto"/>
+    <string name="Tres">3</string>
+    <string name="Uno">1</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Calc112</string>
+    <string name="hello_world">Cristhian</string>
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+</resources>

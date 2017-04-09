@@ -1,0 +1,600 @@
+[
+    {
+        "outputFile": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\build\\intermediates\\res\\merged\\debug\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 57,
+                    "endOffset": 108
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 92,
+                        "endColumn": 57,
+                        "endOffset": 145
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 113,
+                    "endColumn": 55,
+                    "endOffset": 164
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\dimens.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 151,
+                        "endColumn": 55,
+                        "endOffset": 202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 169,
+                    "endColumn": 31,
+                    "endOffset": 196
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 1,
+                        "startOffset": 562,
+                        "endColumn": 28,
+                        "endOffset": 589
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 201,
+                    "endColumn": 31,
+                    "endOffset": 228
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 1,
+                        "startOffset": 591,
+                        "endColumn": 28,
+                        "endOffset": 618
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 233,
+                    "endColumn": 36,
+                    "endOffset": 265
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 874,
+                        "endColumn": 33,
+                        "endOffset": 906
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 270,
+                    "endColumn": 40,
+                    "endOffset": 306
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 908,
+                        "endColumn": 37,
+                        "endOffset": 944
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 311,
+                    "endColumn": 31,
+                    "endOffset": 338
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 620,
+                        "endColumn": 28,
+                        "endOffset": 647
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 343,
+                    "endColumn": 34,
+                    "endOffset": 373
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 1,
+                        "startOffset": 239,
+                        "endColumn": 31,
+                        "endOffset": 269
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 378,
+                    "endColumn": 35,
+                    "endOffset": 409
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 399,
+                        "endColumn": 32,
+                        "endOffset": 430
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 414,
+                    "endColumn": 36,
+                    "endOffset": 446
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 1,
+                        "startOffset": 365,
+                        "endColumn": 33,
+                        "endOffset": 397
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 451,
+                    "endColumn": 31,
+                    "endOffset": 478
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 649,
+                        "endColumn": 28,
+                        "endOffset": 676
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 483,
+                    "endColumn": 37,
+                    "endOffset": 516
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 736,
+                        "endColumn": 34,
+                        "endOffset": 769
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 521,
+                    "endColumn": 33,
+                    "endOffset": 550
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 1,
+                        "startOffset": 302,
+                        "endColumn": 30,
+                        "endOffset": 331
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 555,
+                    "endColumn": 31,
+                    "endOffset": 582
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 678,
+                        "endColumn": 28,
+                        "endOffset": 705
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 587,
+                    "endColumn": 31,
+                    "endOffset": 614
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 707,
+                        "endColumn": 28,
+                        "endOffset": 734
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 619,
+                    "endColumn": 33,
+                    "endOffset": 648
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 810,
+                        "endColumn": 30,
+                        "endOffset": 839
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 653,
+                    "endColumn": 35,
+                    "endOffset": 684
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 841,
+                        "endColumn": 32,
+                        "endOffset": 872
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 689,
+                    "endColumn": 41,
+                    "endOffset": 726
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 771,
+                        "endColumn": 38,
+                        "endOffset": 808
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 731,
+                    "endColumn": 35,
+                    "endOffset": 762
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 1,
+                        "startOffset": 529,
+                        "endColumn": 32,
+                        "endOffset": 560
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 767,
+                    "endColumn": 34,
+                    "endOffset": 797
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 1,
+                        "startOffset": 497,
+                        "endColumn": 31,
+                        "endOffset": 527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 802,
+                    "endColumn": 35,
+                    "endOffset": 833
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 1,
+                        "startOffset": 206,
+                        "endColumn": 32,
+                        "endOffset": 237
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 838,
+                    "endColumn": 34,
+                    "endOffset": 868
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 432,
+                        "endColumn": 31,
+                        "endOffset": 462
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 873,
+                    "endColumn": 35,
+                    "endOffset": 904
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 1,
+                        "startOffset": 464,
+                        "endColumn": 32,
+                        "endOffset": 495
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 909,
+                    "endColumn": 29,
+                    "endOffset": 934
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 1,
+                        "startOffset": 946,
+                        "endColumn": 34,
+                        "endOffset": 979
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 939,
+                    "endColumn": 34,
+                    "endOffset": 969
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 1,
+                        "startOffset": 333,
+                        "endColumn": 31,
+                        "endOffset": 363
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 974,
+                    "endColumn": 33,
+                    "endOffset": 1003
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 1,
+                        "startOffset": 271,
+                        "endColumn": 30,
+                        "endOffset": 300
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1008,
+                    "endColumn": 52,
+                    "endOffset": 1056
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 52,
+                        "endOffset": 152
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1061,
+                    "endColumn": 44,
+                    "endOffset": 1101
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 58,
+                        "endColumn": 44,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1106,
+                    "endColumn": 49,
+                    "endOffset": 1151
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 158,
+                        "endColumn": 49,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1156,
+                    "endLine": 37,
+                    "endColumn": 12,
+                    "endOffset": 1442
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 191,
+                        "endLine": 12,
+                        "endColumn": 12,
+                        "endOffset": 481
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 38,
+                    "startColumn": 4,
+                    "startOffset": 1447,
+                    "endLine": 40,
+                    "endColumn": 12,
+                    "endOffset": 1602
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values\\styles.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 522,
+                        "endLine": 17,
+                        "endColumn": 12,
+                        "endOffset": 679
+                    }
+                }
+            }
+        ]
+    }
+]
