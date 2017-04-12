@@ -10,19 +10,18 @@
 	<EditText
     	android:id="@+id/etxtContenido"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="100dp"
         android:background="#4b4b4b"
         android:textColor="@android:color/white"
         android:inputType="text"
         android:gravity="right|center"
-        android:textSize="30sp"
+        android:textSize="20sp"
         >
 		<requestFocus />
         </EditText>
         
     <LinearLayout 
-        android:id="@+id/LayoutTipoConvercion"
+        android:id="@+id/LayoutTipo"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -30,12 +29,10 @@
         
         <Spinner
             android:id="@+id/baseUno"
-            android:layout_width="124dp"
+            android:layout_width="wrap_content"
+            android:layout_weight="14"
             android:background="@android:color/darker_gray"
             android:layout_height="match_parent" />
-<<<<<<< Updated upstream
-        <Button 
-=======
 
         <Spinner
             android:id="@+id/baseDos"
@@ -49,95 +46,53 @@
         android:id="@+id/LayoutConvercion"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:orientation="horizontal"
         >
 
+
         <Button
->>>>>>> Stashed changes
+            android:id="@+id/BtnBorrarTodo"
+            android:text="@string/BorrarTodo"
+            android:onClick="BorrarTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            />
+        <Button
             android:id="@+id/Convertir"
             android:text="convertir"
             android:onClick="Convertir"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-<<<<<<< Updated upstream
-            android:background="@android:color/black"
-=======
-            android:layout_weight="1"
-            android:background="@android:color/holo_blue_dark"
->>>>>>> Stashed changes
+            android:layout_weight="4"
+            android:background="#ff44"
             android:textColor="@android:color/white"
             />
-
-        <Spinner
-            android:id="@+id/baseDos"
-            android:layout_width="124dp"
-            android:layout_height="match_parent"
-            android:background="@android:color/darker_gray" />
+        <Button
+            android:id="@+id/BtnBorrar"
+            android:onClick="Borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4b4b4b"
+            android:drawableRight="@drawable/btnborrar"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
 
     </LinearLayout>
-    <LinearLayout 
+    <LinearLayout
+
         android:id="@+id/LayoutBotones"
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
         >
         
         
-        <LinearLayout 
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:id="@+id/LayoutFilauno"
-            >
-            <Button 
-                android:id="@+id/BtnBorrarTodo"
-                android:text="@string/BorrarTodo"
-                android:onClick="BorrarTodo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/background_dark"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            <Button 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/BtnDividir"
-                android:text="@string/Dividir"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            <Button 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/BtnMultiplicar"
-                android:text="@string/Multiplicar"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
 
-            <Button
-                android:id="@+id/BtnBorrar"
-                android:onClick="Borrar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="#4b4b4b"
-                android:drawableRight="@drawable/btnborrar"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
-
-        </LinearLayout>
         <LinearLayout 
             android:orientation="horizontal"
             android:layout_width="fill_parent"
@@ -150,6 +105,7 @@
                 android:onClick="D"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -160,6 +116,7 @@
                 android:onClick="E"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -170,24 +127,13 @@
                 android:onClick="F"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
-            <Button 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
-        </LinearLayout>	
+
+        </LinearLayout>
         <LinearLayout 
             android:orientation="horizontal"
             android:layout_width="fill_parent"
@@ -200,6 +146,18 @@
                 android:onClick="A"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                />
+            <Button
+                android:id="@+id/BtnC"
+                android:text="@string/C"
+                android:onClick="C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -210,34 +168,14 @@
                 android:onClick="B"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
-            <Button 
-                android:id="@+id/BtnC"
-                android:text="@string/C"
-                android:onClick="C"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            <Button 
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
-        </LinearLayout>	
+
+
+        </LinearLayout>
         <LinearLayout 
             android:orientation="horizontal"
             android:layout_width="fill_parent"
@@ -250,6 +188,7 @@
                 android:onClick="Siete"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                	android:background="@android:color/black"
                	android:textColor="@android:color/white"
                	android:textSize="40sp"
@@ -260,6 +199,7 @@
                 android:onClick="Ocho"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -270,25 +210,12 @@
                 android:onClick="Nueve"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
-            <Button 
-                android:id="@+id/BtnMenos"
-                android:text="@string/Menos"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
+
         </LinearLayout>
         <LinearLayout 
             android:orientation="horizontal"
@@ -302,6 +229,7 @@
                 android:onClick="Cuatro"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -312,6 +240,7 @@
                 android:onClick="Cinco"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -322,25 +251,12 @@
                 android:onClick="Seis"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
-            <Button 
-                android:id="@+id/BtnMas"
-                android:text="@string/Mas"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
-            <Button
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
+
         </LinearLayout>
         <LinearLayout 
             android:orientation="horizontal"
@@ -351,9 +267,11 @@
             <Button 
                 android:id="@+id/BtnUno"
                 android:text="@string/Uno"
+                android:textAlignment="center"
                 android:onClick="Uno"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -364,6 +282,7 @@
                 android:onClick="Dos"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
@@ -374,31 +293,57 @@
                 android:onClick="Tres"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
-            <Button 
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/LayoutFilauno"
+            >
+            <Button
                 android:id="@+id/BtnCero"
                 android:text="@string/Cero"
                 android:onClick="Cero"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
-            <Button 
+            <Button
                 android:id="@+id/Btnd"
                 android:text="@string/Punto"
                 android:onClick="Punto"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
+            <Button
+                android:id="@+id/Btn"
+                android:text="@string/Sintexto"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                />
+
+
+
         </LinearLayout>
+
         
         
     </LinearLayout>
