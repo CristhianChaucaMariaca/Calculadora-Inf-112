@@ -27,5 +27,6 @@
 	<string name="Menos">-</string>
 	<string name="Borrar">B</string>
 	<string name="BorrarTodo">C</string>
+	<string name="convertir">Convertir</string>
 	<string name="Sintexto"></string>
 </resources>

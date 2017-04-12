@@ -19,40 +19,39 @@ public final class R {
         public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
-        public static final int BtnA=0x7f080010;
-        public static final int BtnB=0x7f080011;
-        public static final int BtnBorrar=0x7f08000a;
-        public static final int BtnBorrarTodo=0x7f080007;
-        public static final int BtnC=0x7f080012;
-        public static final int BtnCero=0x7f080021;
-        public static final int BtnCinco=0x7f08001a;
-        public static final int BtnCuatro=0x7f080019;
-        public static final int BtnD=0x7f08000c;
-        public static final int BtnDividir=0x7f080008;
-        public static final int BtnDos=0x7f08001f;
-        public static final int BtnE=0x7f08000d;
-        public static final int BtnF=0x7f08000e;
-        public static final int BtnMas=0x7f08001c;
-        public static final int BtnMenos=0x7f080017;
-        public static final int BtnMultiplicar=0x7f080009;
-        public static final int BtnNueve=0x7f080016;
-        public static final int BtnOcho=0x7f080015;
-        public static final int BtnSeis=0x7f08001b;
-        public static final int BtnSiete=0x7f080014;
-        public static final int BtnTres=0x7f080020;
-        public static final int BtnUno=0x7f08001e;
-        public static final int Btnd=0x7f080022;
-        public static final int Convertir=0x7f080003;
-        public static final int LayoutBotones=0x7f080005;
-        public static final int LayoutFilacinco=0x7f080018;
-        public static final int LayoutFilacuatro=0x7f080013;
-        public static final int LayoutFilados=0x7f08000b;
-        public static final int LayoutFilaseis=0x7f08001d;
-        public static final int LayoutFilatres=0x7f08000f;
-        public static final int LayoutFilauno=0x7f080006;
-        public static final int LayoutTipoConvercion=0x7f080001;
-        public static final int action_settings=0x7f080023;
-        public static final int baseDos=0x7f080004;
+        public static final int Btn=0x7f080021;
+        public static final int BtnA=0x7f08000c;
+        public static final int BtnB=0x7f08000d;
+        public static final int BtnBorrar=0x7f080020;
+        public static final int BtnBorrarTodo=0x7f08001e;
+        public static final int BtnC=0x7f08000e;
+        public static final int BtnCero=0x7f08001c;
+        public static final int BtnCinco=0x7f080015;
+        public static final int BtnCuatro=0x7f080014;
+        public static final int BtnD=0x7f080008;
+        public static final int BtnDos=0x7f080019;
+        public static final int BtnE=0x7f080009;
+        public static final int BtnF=0x7f08000a;
+        public static final int BtnNueve=0x7f080012;
+        public static final int BtnOcho=0x7f080011;
+        public static final int BtnSeis=0x7f080016;
+        public static final int BtnSiete=0x7f080010;
+        public static final int BtnTres=0x7f08001a;
+        public static final int BtnUno=0x7f080018;
+        public static final int Btnd=0x7f08001d;
+        public static final int Convertir=0x7f080005;
+        public static final int LayoutBorrarUno=0x7f08001f;
+        public static final int LayoutBotones=0x7f080006;
+        public static final int LayoutConvercion=0x7f080004;
+        public static final int LayoutFilacinco=0x7f080013;
+        public static final int LayoutFilacuatro=0x7f08000f;
+        public static final int LayoutFilados=0x7f080007;
+        public static final int LayoutFilaseis=0x7f080017;
+        public static final int LayoutFilatres=0x7f08000b;
+        public static final int LayoutFilauno=0x7f08001b;
+        public static final int LayoutTipo=0x7f080001;
+        public static final int action_settings=0x7f080022;
+        public static final int baseDos=0x7f080003;
         public static final int baseUno=0x7f080002;
         public static final int etxtContenido=0x7f080000;
     }
@@ -89,7 +88,8 @@ public final class R {
         public static final int Uno=0x7f060017;
         public static final int action_settings=0x7f060018;
         public static final int app_name=0x7f060019;
-        public static final int hello_world=0x7f06001a;
+        public static final int convertir=0x7f06001a;
+        public static final int hello_world=0x7f06001b;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 

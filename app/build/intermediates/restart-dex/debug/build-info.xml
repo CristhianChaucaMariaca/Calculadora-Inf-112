@@ -1,47 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="x86"
-    api-level="18"
-    density="xxhdpi"
+    abi="armeabi-v7a,armeabi"
+    api-level="16"
+    density="mdpi"
     format="7"
-    timestamp="21959382986421"
-    verifier="COMPATIBLE" >
+    timestamp="216565904567589" >
 
     <task
         name="javac"
-        duration="230" />
+        duration="1475" />
     <task
         name="instant-run-dex"
-        duration="1093" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="65" />
+        duration="391" />
     <task
         name="verifier"
-        duration="22" />
+        duration="41" />
 
     <artifact
-        location="C:\Users\Cristhian\AndroidStudioProjects\Calc112\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Cristhian\AndroidStudioProjects\Calc112\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="21644283577163" >
+    <build timestamp="216565904567589" >
         <artifact
             location="C:\Users\Cristhian\AndroidStudioProjects\Calc112\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="21792464009882"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Cristhian\AndroidStudioProjects\Calc112\app\build\intermediates\builds\debug\21792464009882\classes.dex"
-            type="RELOAD_DEX" />
-    </build>
-    <build
-        timestamp="21959382986421"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Cristhian\AndroidStudioProjects\Calc112\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>
