@@ -60,6 +60,7 @@
             android:drawableRight="@drawable/btnborrar"
             android:textColor="@android:color/white"
             android:textSize="30sp"
+            android:gravity="center"
             />
 
     </LinearLayout>

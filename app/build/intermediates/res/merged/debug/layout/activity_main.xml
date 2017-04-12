@@ -19,29 +19,7 @@
         >
 		<requestFocus />
         </EditText>
-        
-    <LinearLayout 
-        android:id="@+id/LayoutTipo"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        
-        <Spinner
-            android:id="@+id/baseUno"
-            android:layout_width="wrap_content"
-            android:layout_weight="14"
-            android:background="@android:color/darker_gray"
-            android:layout_height="match_parent" />
 
-        <Spinner
-            android:id="@+id/baseDos"
-            android:layout_width="wrap_content"
-            android:layout_weight="14"
-            android:layout_height="match_parent"
-            android:background="@android:color/darker_gray" />
-
-    </LinearLayout>
     <LinearLayout
         android:id="@+id/LayoutConvercion"
         android:layout_width="fill_parent"
@@ -56,10 +34,11 @@
             android:onClick="BorrarTodo"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="@android:color/background_dark"
+            android:layout_weight="0"
+            android:background="@color/btnborrar"
             android:textColor="@android:color/white"
-            android:textSize="40sp"
+            android:textSize="50sp"
+            android:textStyle="bold"
             />
         <Button
             android:id="@+id/Convertir"
@@ -76,13 +55,37 @@
             android:onClick="Borrar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#4b4b4b"
+            android:layout_weight="0"
+            android:background="@color/btnborrar"
             android:drawableRight="@drawable/btnborrar"
             android:textColor="@android:color/white"
-            android:textSize="40sp" />
+            android:textSize="50sp"
+            />
 
     </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/LayoutTipo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        >
+        
+        <Spinner
+            android:id="@+id/baseUno"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/darker_gray"
+            android:layout_height="match_parent" />
+
+        <Spinner
+            android:id="@+id/baseDos"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:background="@android:color/darker_gray" />
+
+    </LinearLayout>
+
     <LinearLayout
 
         android:id="@+id/LayoutBotones"

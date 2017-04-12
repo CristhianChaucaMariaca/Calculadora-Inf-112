@@ -37,7 +37,7 @@
             android:layout_weight="0"
             android:background="@color/btnborrar"
             android:textColor="@android:color/white"
-            android:textSize="40sp"
+            android:textSize="50sp"
             android:textStyle="bold"
             />
         <Button
@@ -59,7 +59,7 @@
             android:background="@color/btnborrar"
             android:drawableRight="@drawable/btnborrar"
             android:textColor="@android:color/white"
-            android:textSize="40sp"
+            android:textSize="50sp"
             />
 
     </LinearLayout>
@@ -73,14 +73,14 @@
         <Spinner
             android:id="@+id/baseUno"
             android:layout_width="wrap_content"
-            android:layout_weight="14"
+            android:layout_weight="1"
             android:background="@android:color/darker_gray"
             android:layout_height="match_parent" />
 
         <Spinner
             android:id="@+id/baseDos"
             android:layout_width="wrap_content"
-            android:layout_weight="14"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:background="@android:color/darker_gray" />
 

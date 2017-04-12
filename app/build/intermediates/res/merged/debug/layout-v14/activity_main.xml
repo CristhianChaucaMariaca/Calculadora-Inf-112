@@ -11,7 +11,7 @@
     	android:id="@+id/etxtContenido"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="3"
+        android:layout_weight="7"
         android:background="#4b4b4b"
         android:textColor="@android:color/white"
         android:inputType="text"
@@ -20,7 +20,50 @@
         >
 		<requestFocus />
         </EditText>
-        
+    <LinearLayout
+        android:id="@+id/LayoutConvercion"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal"
+        >
+        <Button
+            android:id="@+id/BtnBorrarTodo"
+            android:text="@string/BorrarTodo"
+            android:onClick="BorrarTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/btnborrar"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            />
+
+        <Button
+            android:id="@+id/Convertir"
+            android:text="@string/convertir"
+            android:onClick="Convertir"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="4"
+            android:background="@color/botonConvertir"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/BtnBorrar"
+            android:onClick="Borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:background="@color/btnborrar"
+            android:drawableRight="@drawable/btnborrar"
+            android:textColor="@android:color/white"
+            android:textSize="30sp"
+            android:gravity="center"
+            />
+
+    </LinearLayout>
     <LinearLayout 
         android:id="@+id/LayoutTipo"
         android:layout_width="fill_parent"
@@ -44,54 +87,13 @@
             android:background="@android:color/darker_gray" />
 
     </LinearLayout>
-    <LinearLayout
-        android:id="@+id/LayoutConvercion"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0"
-        android:orientation="horizontal"
-        >
-        <Button
-            android:id="@+id/BtnBorrarTodo"
-            android:text="@string/BorrarTodo"
-            android:onClick="BorrarTodo"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#4b4b4b"
-            android:textColor="@android:color/white"
-            android:textSize="40sp"
-            />
 
-        <Button
-            android:id="@+id/Convertir"
-            android:text="@string/convertir"
-            android:onClick="Convertir"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:layout_weight="4"
-            android:background="@android:color/holo_blue_dark"
-            android:textColor="@android:color/white"
-            />
-        <Button
-            android:id="@+id/BtnBorrar"
-            android:onClick="Borrar"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:background="#4b4b4b"
-            android:drawableRight="@drawable/btnborrar"
-            android:textColor="@android:color/white"
-            android:textSize="40sp"
-            />
-
-    </LinearLayout>
     <LinearLayout
 
         android:id="@+id/LayoutBotones"
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_weight="1"
+        android:layout_weight="2"
         android:layout_height="wrap_content"
         >
         

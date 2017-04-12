@@ -12,9 +12,10 @@ public final class R {
     }
     public static final class color {
         public static final int botonConvertir=0x7f050000;
-        public static final int colorAccent=0x7f050001;
-        public static final int colorPrimary=0x7f050002;
-        public static final int colorPrimaryDark=0x7f050003;
+        public static final int btnborrar=0x7f050001;
+        public static final int colorAccent=0x7f050002;
+        public static final int colorPrimary=0x7f050003;
+        public static final int colorPrimaryDark=0x7f050004;
     }
     public static final class dimen {
         public static final int activity_horizontal_margin=0x7f040000;
@@ -28,8 +29,8 @@ public final class R {
         public static final int Btn=0x7f090020;
         public static final int BtnA=0x7f09000e;
         public static final int BtnB=0x7f090010;
-        public static final int BtnBorrar=0x7f090007;
-        public static final int BtnBorrarTodo=0x7f090005;
+        public static final int BtnBorrar=0x7f090004;
+        public static final int BtnBorrarTodo=0x7f090002;
         public static final int BtnC=0x7f09000f;
         public static final int BtnCero=0x7f09001e;
         public static final int BtnCinco=0x7f090017;
@@ -45,19 +46,19 @@ public final class R {
         public static final int BtnTres=0x7f09001c;
         public static final int BtnUno=0x7f09001a;
         public static final int Btnd=0x7f09001f;
-        public static final int Convertir=0x7f090006;
+        public static final int Convertir=0x7f090003;
         public static final int LayoutBotones=0x7f090008;
-        public static final int LayoutConvercion=0x7f090004;
+        public static final int LayoutConvercion=0x7f090001;
         public static final int LayoutFilacinco=0x7f090015;
         public static final int LayoutFilacuatro=0x7f090011;
         public static final int LayoutFilados=0x7f090009;
         public static final int LayoutFilaseis=0x7f090019;
         public static final int LayoutFilatres=0x7f09000d;
         public static final int LayoutFilauno=0x7f09001d;
-        public static final int LayoutTipo=0x7f090001;
+        public static final int LayoutTipo=0x7f090005;
         public static final int action_settings=0x7f090021;
-        public static final int baseDos=0x7f090003;
-        public static final int baseUno=0x7f090002;
+        public static final int baseDos=0x7f090007;
+        public static final int baseUno=0x7f090006;
         public static final int etxtContenido=0x7f090000;
     }
     public static final class layout {
