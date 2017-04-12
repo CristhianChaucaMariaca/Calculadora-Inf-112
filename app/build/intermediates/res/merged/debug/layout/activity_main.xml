@@ -10,13 +10,12 @@
 	<EditText
     	android:id="@+id/etxtContenido"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="1"
+        android:layout_height="100dp"
         android:background="#4b4b4b"
         android:textColor="@android:color/white"
         android:inputType="text"
         android:gravity="right|center"
-        android:textSize="30sp"
+        android:textSize="20sp"
         >
 		<requestFocus />
         </EditText>
@@ -47,20 +46,41 @@
         android:id="@+id/LayoutConvercion"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:orientation="horizontal"
         >
 
+
+        <Button
+            android:id="@+id/BtnBorrarTodo"
+            android:text="@string/BorrarTodo"
+            android:onClick="BorrarTodo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@android:color/background_dark"
+            android:textColor="@android:color/white"
+            android:textSize="40sp"
+            />
         <Button
             android:id="@+id/Convertir"
             android:text="convertir"
             android:onClick="Convertir"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:background="@android:color/holo_blue_dark"
+            android:layout_weight="4"
+            android:background="@color/botonConvertir"
             android:textColor="@android:color/white"
             />
+        <Button
+            android:id="@+id/BtnBorrar"
+            android:onClick="Borrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#4b4b4b"
+            android:drawableRight="@drawable/btnborrar"
+            android:textColor="@android:color/white"
+            android:textSize="40sp" />
 
     </LinearLayout>
     <LinearLayout
@@ -68,7 +88,6 @@
         android:id="@+id/LayoutBotones"
         android:orientation="vertical"
         android:layout_width="fill_parent"
-        android:layout_weight="1"
         android:layout_height="wrap_content"
         >
         
@@ -132,6 +151,17 @@
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
+            <Button
+                android:id="@+id/BtnC"
+                android:text="@string/C"
+                android:onClick="C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:textSize="40sp"
+                />
             <Button 
                 android:id="@+id/BtnB"
                 android:text="@string/B"
@@ -143,17 +173,7 @@
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
-            <Button 
-                android:id="@+id/BtnC"
-                android:text="@string/C"
-                android:onClick="C"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@android:color/black"
-                android:textColor="@android:color/white"
-                android:textSize="40sp"
-                />
+
 
         </LinearLayout>
         <LinearLayout 
@@ -309,39 +329,21 @@
                 android:textSize="40sp"
                 />
             <Button
-                android:id="@+id/BtnBorrarTodo"
-                android:text="@string/BorrarTodo"
-                android:onClick="BorrarTodo"
+                android:id="@+id/Btn"
+                android:text="@string/Sintexto"
+
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:background="@android:color/background_dark"
+                android:background="@android:color/black"
                 android:textColor="@android:color/white"
                 android:textSize="40sp"
                 />
 
 
-        </LinearLayout>
-        <LinearLayout
-            android:id="@+id/LayoutBorrarUno"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            >
-
-
-            <Button
-                android:id="@+id/BtnBorrar"
-                android:onClick="Borrar"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="#4b4b4b"
-                android:drawableRight="@drawable/btnborrar"
-                android:textColor="@android:color/white"
-                android:textSize="40sp" />
 
         </LinearLayout>
+
         
         
     </LinearLayout>

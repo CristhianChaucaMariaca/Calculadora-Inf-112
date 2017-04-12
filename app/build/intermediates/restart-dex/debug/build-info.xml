@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="16"
-    density="mdpi"
+    api-level="22"
+    density="hdpi"
     format="7"
-    timestamp="216565904567589" >
+    timestamp="260087784748099" >
 
     <task
         name="javac"
-        duration="1475" />
+        duration="1571" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="391" />
+        duration="302" />
     <task
         name="verifier"
         duration="41" />
@@ -23,7 +23,7 @@
         location="C:\Users\Cristhian\AndroidStudioProjects\Calc112\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="216565904567589" >
+    <build timestamp="260087784748099" >
         <artifact
             location="C:\Users\Cristhian\AndroidStudioProjects\Calc112\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
