@@ -17,6 +17,7 @@
         android:inputType="text"
         android:gravity="right|center"
         android:textSize="30sp"
+
         >
 		<requestFocus />
         </EditText>

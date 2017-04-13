@@ -7,65 +7,8 @@
                     "startLine": 2,
                     "startColumn": 4,
                     "startOffset": 55,
-                    "endColumn": 48,
-                    "endOffset": 99
-                },
-                "from": {
-                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml",
-                    "position": {
-                        "startLine": 5,
-                        "startColumn": 4,
-                        "startOffset": 204,
-                        "endColumn": 48,
-                        "endOffset": 248
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 104,
-                    "endColumn": 43,
-                    "endOffset": 143
-                },
-                "from": {
-                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 254,
-                        "endColumn": 43,
-                        "endOffset": 293
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 148,
-                    "endColumn": 45,
-                    "endOffset": 189
-                },
-                "from": {
-                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 157,
-                        "endColumn": 45,
-                        "endOffset": 198
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 5,
-                    "startColumn": 4,
-                    "startOffset": 194,
-                    "endColumn": 46,
-                    "endOffset": 236
+                    "endColumn": 41,
+                    "endOffset": 92
                 },
                 "from": {
                     "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml",
@@ -73,8 +16,51 @@
                         "startLine": 2,
                         "startColumn": 4,
                         "startOffset": 57,
-                        "endColumn": 46,
-                        "endOffset": 99
+                        "endColumn": 41,
+                        "endOffset": 94
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 97,
+                    "endColumn": 48,
+                    "endOffset": 141
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 146,
+                    "endColumn": 43,
+                    "endOffset": 185
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml"
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 190,
+                    "endColumn": 45,
+                    "endOffset": 231
+                },
+                "from": {
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 152,
+                        "endColumn": 45,
+                        "endOffset": 193
                     }
                 }
             },
@@ -82,18 +68,18 @@
                 "to": {
                     "startLine": 6,
                     "startColumn": 4,
-                    "startOffset": 241,
+                    "startOffset": 236,
                     "endColumn": 50,
-                    "endOffset": 287
+                    "endOffset": 282
                 },
                 "from": {
                     "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\colors.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 105,
+                        "startOffset": 100,
                         "endColumn": 50,
-                        "endOffset": 151
+                        "endOffset": 146
                     }
                 }
             },
@@ -101,21 +87,13 @@
                 "to": {
                     "startLine": 7,
                     "startColumn": 4,
-                    "startOffset": 292,
+                    "startOffset": 287,
                     "endLine": 9,
                     "endColumn": 12,
-                    "endOffset": 424
+                    "endOffset": 419
                 },
                 "from": {
-                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\styles.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 182,
-                        "endLine": 8,
-                        "endColumn": 12,
-                        "endOffset": 316
-                    }
+                    "file": "C:\\Users\\Cristhian\\AndroidStudioProjects\\Calc112\\app\\src\\main\\res\\values-v11\\styles.xml"
                 }
             }
         ]

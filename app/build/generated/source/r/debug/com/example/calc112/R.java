@@ -11,10 +11,10 @@ public final class R {
     public static final class attr {
     }
     public static final class color {
-        public static final int botonConvertir=0x7f050000;
-        public static final int btnborrar=0x7f050001;
-        public static final int colorAccent=0x7f050002;
-        public static final int colorPrimary=0x7f050003;
+        public static final int Primary=0x7f050000;
+        public static final int botonConvertir=0x7f050001;
+        public static final int btnborrar=0x7f050002;
+        public static final int colorAccent=0x7f050003;
         public static final int colorPrimaryDark=0x7f050004;
     }
     public static final class dimen {
@@ -23,7 +23,8 @@ public final class R {
     }
     public static final class drawable {
         public static final int btnborrar=0x7f020000;
-        public static final int ic_launcher=0x7f020001;
+        public static final int ic_action_name=0x7f020001;
+        public static final int ic_launcher=0x7f020002;
     }
     public static final class id {
         public static final int Btn=0x7f090020;
@@ -56,7 +57,8 @@ public final class R {
         public static final int LayoutFilatres=0x7f09000d;
         public static final int LayoutFilauno=0x7f09001d;
         public static final int LayoutTipo=0x7f090005;
-        public static final int action_settings=0x7f090021;
+        public static final int action_CD=0x7f090021;
+        public static final int action_exit=0x7f090022;
         public static final int baseDos=0x7f090007;
         public static final int baseUno=0x7f090006;
         public static final int etxtContenido=0x7f090000;
@@ -92,16 +94,17 @@ public final class R {
         public static final int Sintexto=0x7f070015;
         public static final int Tres=0x7f070016;
         public static final int Uno=0x7f070017;
-        public static final int action_settings=0x7f070018;
-        public static final int app_name=0x7f070019;
-        public static final int convertir=0x7f07001a;
-        public static final int hello_world=0x7f07001b;
+        public static final int action_CD=0x7f070018;
+        public static final int action_exit=0x7f070019;
+        public static final int action_settings=0x7f07001a;
+        public static final int app_name=0x7f07001b;
+        public static final int convertir=0x7f07001c;
+        public static final int hello_world=0x7f07001d;
     }
     public static final class style {
         /**  API 11 theme customizations can go here. 
  API 14 theme customizations can go here. 
-
-            Theme customizations available in newer API levels can go in
+Theme customizations available in newer API levels can go in
             res/values-vXX/styles.xml, while customizations related to
             backward-compatibility can go here.
         
