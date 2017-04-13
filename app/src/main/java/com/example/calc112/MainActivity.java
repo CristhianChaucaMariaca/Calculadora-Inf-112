@@ -16,6 +16,8 @@ import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class MainActivity extends Activity implements OnItemSelectedListener{
 
 	EditText etrango;
@@ -71,21 +73,21 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 			toast.show();
 		}else if(id==R.id.action_CD)
 		{
+			Toast.makeText(MainActivity.this,"Ingrese 10<Numero>0",Toast.LENGTH_SHORT).show();
 			final View view= LayoutInflater.from(MainActivity.this).inflate(R.layout.activity_pop_up_cd,null);
-
+			etrango=(EditText)view.findViewById(R.id.EtRangoDec);
+			etrango.setText(cantDecimales+"");
 			AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
 			builder.setMessage("Cantidad de decimales:").setView(view).setPositiveButton("Aceptar",new DialogInterface.OnClickListener(){
 				@Override
 				public void onClick(DialogInterface dialog, int which) {
-					Toast.makeText(MainActivity.this,"Ingrese 10<Numero>0",Toast.LENGTH_SHORT).show();
-					etrango=(EditText)view.findViewById(R.id.EtRangoDec);
+
 					if (Integer.parseInt(etrango.getText().toString())<=10){
 						cantDecimales=Integer.parseInt(etrango.getText().toString());
 					}
 					else{
 						Toast.makeText(MainActivity.this,"No puede introducir numeros mayores a 10",Toast.LENGTH_SHORT);
 					}
-					campotxt.setText(cantDecimales+"");
 
 				}
 			})
@@ -116,7 +118,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 			}
 			if (pDecimal.compareTo("0")>0)
 			{
-				mDecimal=this.DecimalBaseXBase10(pDecimal);
+				mDecimal=this.DecimalBaseXBase10(pDecimal,cantDecimales);
 				campotxt.setText((mEntero+mDecimal)+"");
 			}
     	}
@@ -143,7 +145,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 	//Convercion de decimales Base X a Base Y
 	public String DecimalBaseXBaseY(String x)
 	{
-		String res=this.DecimalBase10BaseX(this.ConvertirDecimalEntero(this.DecimalBaseXBase10(x)),cantDecimales);
+		String res=this.DecimalBase10BaseX(this.ConvertirDecimalEntero(this.DecimalBaseXBase10(x,cantDecimales)),cantDecimales);
 		return res;
 	}
 	public String ConvertirDecimalEntero(double x){
@@ -157,7 +159,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 		return cad;
 	}
 	//Convercion de decimales de base X a base 10
-	public double DecimalBaseXBase10(String x)
+	public double DecimalBaseXBase10(String x,int cantDc)
 	{
 		int  aux;
 		double res=0;
@@ -165,16 +167,23 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 			aux=convertirCadenaANumero(x.substring(i-1,i));
 			res=res+(aux*(Math.pow(BaseA+2, (i*-1))));
 		}
+		double auxx=10.0;
+		for (int i=1;i<=cantDc;i++)
+		{
+			auxx=auxx*10;
+		}
+		res=Math.round((res*auxx))/auxx;
+		Toast.makeText(MainActivity.this,res+"",Toast.LENGTH_LONG).show();
 		return res;
 	}
 
 	//Convercion de decimales de base 10 a Base X;
-	public String DecimalBase10BaseX(String deci,int cantidadDecimales)
+	public String DecimalBase10BaseX(String deci,int cantiDc)
 	{
 		int y;
 		String cadena="";
 		double x=Double.parseDouble(deci)*Math.pow(10, -deci.length());
-		for (int i = 1; i <= cantidadDecimales; i++) {
+		for (int i = 1; i <= cantiDc; i++) {
 			y=(int)x*(BaseB+2);
 			x=x*(BaseB+2)-y;
 			String nu=ConvertirNumeroaCadena((int)x);
@@ -663,6 +672,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 				pDecimal="C";
 			else
 				pDecimal=pDecimal+"C";
+			cadenaNum=pEntera+"."+pDecimal;
     	}
     	campotxt.setText(cadenaNum);
     }
@@ -731,6 +741,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 				pDecimal="F";
 			else
 				pDecimal=pDecimal+"F";
+			cadenaNum=pEntera+"."+pDecimal;
     	}
     	campotxt.setText(cadenaNum);
     }
