@@ -78,14 +78,18 @@
             android:layout_width="wrap_content"
             android:layout_weight="14"
             android:background="@android:color/darker_gray"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:layout_marginRight="2dp"
+            android:layout_marginTop="4dp"/>
 
         <Spinner
             android:id="@+id/baseDos"
             android:layout_width="wrap_content"
             android:layout_weight="14"
             android:layout_height="match_parent"
-            android:background="@android:color/darker_gray" />
+            android:background="@android:color/darker_gray"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="4dp"/>
 
     </LinearLayout>
 

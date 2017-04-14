@@ -106,40 +106,47 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 	}
     public void Convertir(View v)
     {
-		double mDecimal=0;
-		long mEntero=0;
-    	swb=true;
-    	if(BaseB==8)
-    	{
-			double res=0;
-			if (pEntera.compareTo("0")>0) {
-				mEntero = this.BaseXBase102(pEntera);
-				campotxt.setText(mEntero + "");
-			}
-			if (pDecimal.compareTo("0")>0)
+		if (!pEntera.equals(""))
+		{
+			double mDecimal=0;
+			long mEntero=0;
+			swb=true;
+			if(BaseB==8)
 			{
-				mDecimal=this.DecimalBaseXBase10(pDecimal,cantDecimales);
-				campotxt.setText((mEntero+mDecimal)+"");
+				double res=0;
+				if (pEntera.compareTo("0")>0) {
+					mEntero = this.BaseXBase102(pEntera);
+					campotxt.setText(mEntero + "");
+				}
+				if (pDecimal.compareTo("0")>0)
+				{
+					mDecimal=this.DecimalBaseXBase10(pDecimal,cantDecimales);
+					campotxt.setText((mEntero+mDecimal)+"");
+				}
 			}
-    	}
-    	if(BaseA==8)
-    	{
-			if (pEntera.compareTo("0")>0)
-				campotxt.setText(this.Base10BaseX(Integer.parseInt(pEntera)));
-    		if (pDecimal.compareTo("0")>0)
+			if(BaseA==8)
 			{
-				campotxt.setText(this.Base10BaseX(Long.parseLong(pEntera))+"."+(this.DecimalBase10BaseX(pDecimal,cantDecimales)));
+				if (pEntera.compareTo("0")>0)
+					campotxt.setText(this.Base10BaseX(Integer.parseInt(pEntera)));
+				if (pDecimal.compareTo("0")>0)
+				{
+					campotxt.setText(this.Base10BaseX(Long.parseLong(pEntera))+"."+(this.DecimalBase10BaseX(pDecimal,cantDecimales)));
+				}
 			}
-    	}
-    	if(BaseA!=8&&BaseB!=8)
-    	{
-			if (pEntera.compareTo("0")>0)
-    			campotxt.setText(this.BaseXBaseY(pEntera));
-			if (pDecimal.compareTo("0")>0) {
-				campotxt.setText(this.BaseXBaseY(pEntera)+"."+(this.DecimalBaseXBaseY(pDecimal)));
+			if(BaseA!=8&&BaseB!=8)
+			{
+				if (pEntera.compareTo("0")>0)
+					campotxt.setText(this.BaseXBaseY(pEntera));
+				if (pDecimal.compareTo("0")>0) {
+					campotxt.setText(this.BaseXBaseY(pEntera)+"."+(this.DecimalBaseXBaseY(pDecimal)));
 
+				}
 			}
-    	}
+			swd=true;
+		}
+		else{
+			Toast.makeText(MainActivity.this,"No ingreso ninguna cantidad...",Toast.LENGTH_SHORT).show();
+		}
     }
 
 	//Convercion de decimales Base X a Base Y
@@ -173,7 +180,6 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
 			auxx=auxx*10;
 		}
 		res=Math.round((res*auxx))/auxx;
-		Toast.makeText(MainActivity.this,res+"",Toast.LENGTH_LONG).show();
 		return res;
 	}
 
@@ -747,7 +753,7 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
     }
     public void Punto(View v)
     {
-    	swd=false;
+    		swd=false;
     }
     
     public void BorrarTodo(View v)
@@ -755,7 +761,8 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
     	pEntera="0";pDecimal="";
     	cadenaNum=pEntera+"";
     	swd=true;
-    	campotxt.setText(cadenaNum);
+    	if (pEntera.equals("0"))
+			campotxt.setText("");
     }
     public void Borrar(View v)
     {
@@ -777,8 +784,11 @@ public class MainActivity extends Activity implements OnItemSelectedListener{
     		}else{
     			cadenaNum=pEntera+"."+pDecimal;
     		}
-    	}    	
-    	campotxt.setText(cadenaNum);
+    	}
+		if (pEntera.equals("0")&&pDecimal.equals(""))
+			campotxt.setText("");
+		else
+			campotxt.setText(cadenaNum);
     	String dmay=this.DigitoMayor(cadenaNum);
     	this.CambioSpinner(dmay);
     }

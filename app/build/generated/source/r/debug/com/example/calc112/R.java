@@ -48,6 +48,7 @@ public final class R {
         public static final int BtnUno=0x7f09001a;
         public static final int Btnd=0x7f09001f;
         public static final int Convertir=0x7f090003;
+        public static final int EtRangoDec=0x7f090021;
         public static final int LayoutBotones=0x7f090008;
         public static final int LayoutConvercion=0x7f090001;
         public static final int LayoutFilacinco=0x7f090015;
@@ -57,14 +58,15 @@ public final class R {
         public static final int LayoutFilatres=0x7f09000d;
         public static final int LayoutFilauno=0x7f09001d;
         public static final int LayoutTipo=0x7f090005;
-        public static final int action_CD=0x7f090021;
-        public static final int action_exit=0x7f090022;
+        public static final int action_CD=0x7f090022;
+        public static final int action_exit=0x7f090023;
         public static final int baseDos=0x7f090007;
         public static final int baseUno=0x7f090006;
         public static final int etxtContenido=0x7f090000;
     }
     public static final class layout {
         public static final int activity_main=0x7f030000;
+        public static final int activity_pop_up_cd=0x7f030001;
     }
     public static final class menu {
         public static final int main=0x7f080000;
